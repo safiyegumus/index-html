@@ -1,0 +1,65 @@
+/* Genel sayfa stili */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #ffffff;
+}
+
+/* Logo */
+.logo img {
+  margin-top: 30px;
+  width: 300px; /* İstersen boyutu ayarla */
+}
+
+
+/* Arama kutusu */
+.search-box input[type="text"] {
+  width: 400px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.buttons button {
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+/* Alt Menü */
+.bottom {
+  display: flex;
+  justify-content: center;
+  background: #a8dadc;
+  margin: 30px auto;
+  width: 80%;
+  padding: 20px 0;
+}
+
+.bottom > div {
+  flex: 1;
+  text-align: center;
+}
+
+.bottom a {
+  display: block;
+  color: blue;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.bottom input[type="text"] {
+  padding: 5px;
+}
+
+.bottom button {
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 12px;
+}
